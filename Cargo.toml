@@ -1,0 +1,18 @@
+[package]
+name = "Server" 
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winapi = { version = "0.3", features = [
+    "winbase",
+    "winnt",
+    "handleapi",
+    "errhandlingapi",
+    "namedpipeapi",
+    "fileapi",
+    "synchapi",
+    "processthreadsapi",
+    "minwindef",
+    "winerror",
+] }
